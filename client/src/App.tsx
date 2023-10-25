@@ -1,10 +1,14 @@
 import React from 'react';
-import './App.css';
-import { Header } from './components/Header';
+import './css/App.css';
+import Header from './components/Header';
+import About from './pages/About';
 
 function App() {
   return (
     <div className="App">
+      <Header />
+      <About />
+
       <header className="header">
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
